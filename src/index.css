@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/space-mono-v13-latin-regular.woff2') format('woff2');
+}
+
+/* work-sans-regular - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/work-sans-v19-latin-regular.woff2') format('woff2');
+}
+
+/* work-sans-600 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/work-sans-v19-latin-600.woff2') format('woff2');
+}
+
+/* work-sans-700 - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/work-sans-v19-latin-700.woff2') format('woff2');
+}
+
+/* space-mono-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/space-mono-v13-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* space-mono-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/space-mono-v13-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    font-family: 'Work Sans';
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2B2B2B;
+}
+
+.hero-img {
+    transition: 0.3s;
+}
+
+.hero-img:hover {
+    transform: scale(1.08);
+}
+
+.counts {
+    font-family: 'Space Mono';
+}
+
+.trend-card {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.trending-picture {
+    transition: 0.3s;
+}
+
+.trending-picture:hover {
+    transform: scale(1.2);
+}
+
+.image-craetors {
+    transition: 0.3s;
+}
+
+.image-craetors:hover {
+    transform: scale(1.05);
+}
+
+.btn-border {
+    border: 2px solid #A259FF;
+    padding: 0 50px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.font2 {
+    font-family: 'Space Mono';
+}
+
+.response-card {
+    transition: 0.3s;
+}
+
+.response-card:hover {
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+
+
+@media (min-width:1200px) {
+    .craetor-card {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .response-card {
+        width: 100%;
+        min-width: 200px;
+        min-height: 238px;
+        flex-direction: column;
+    }
+
+    .response-card img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .response-card h4 {
+        text-align: center;
+    }
+}
