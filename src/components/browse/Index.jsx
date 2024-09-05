@@ -4,7 +4,7 @@ import { arts } from '../../db'
 const Index = () => {
     return (
         <section id='browse' className='py-[40px]  mt-[60px]'>
-            <div className="container m-auto  w-full text-white">
+            <div className="container m-auto  w-full text-white  px-[30px]">
                 <h2 className='text-[28px] leading-[39.2px] font-[600] xl:text-[38px] leading-[45.6px] mb-[40px]'>Browse Categories</h2>
                 <div className='flex flex-wrap gap-[20px] items-center justify-center md:grid grid-cols-4 justify-center '>
                     {

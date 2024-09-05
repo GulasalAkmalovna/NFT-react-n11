@@ -7,7 +7,7 @@ const Index = () => {
     return (
         <section id='discover' className='text-[#fff]  md:flex gap-[40px] mt-[80px] xl:gap-[250px] mt-[200px]'>
 
-            <div className="container  flex items-center justify-center m-auto md:flex gap-[40px] xl:gap-[250px] ">
+            <div className="container   px-[30px] flex items-center justify-center m-auto md:flex gap-[40px] xl:gap-[250px] ">
                 <div className=" md:flex flex-col  max-w-[510px]  ">
                     <div className='md:max-w-[540px]'>
                         <h1 className='text-[28px] font-semibold leading-[39.2px] mb-[10px] md:text-[38px] leading-[45.6px] xl:text-[67px] leading-[73.7px] '>Discover digital art & Collect NFTs</h1>

@@ -5,7 +5,7 @@ import eye from '../../images/eye.svg'
 const Index = () => {
     return (
         <section id='info' className='text-white'>
-            <div className="container m-auto">
+            <div className="container m-auto  px-[30px]">
                 <div className='flex justify-between mt-[60px]'>
                     <div>
                         <h2 className='text-[28px] mb-[10px] leading-[39.2px] text-white font-[600] xl:text-[38px] leading-[45.6px]'>Discover More NFTs</h2>

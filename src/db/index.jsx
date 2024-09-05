@@ -35,6 +35,10 @@ import info1 from '../images/info1.png'
 import info2 from '../images/info2.png'
 import info3 from '../images/info3.png'
 
+import works1 from '../images/works1.svg'
+import works2 from '../images/works2.svg'
+import works3 from '../images/works3.svg'
+
 
 const trendingArr = [
     {
@@ -219,5 +223,25 @@ const galaxys = [
     }
 ]
 
+const works = [
+    {
+        id: 1,
+        url: works1,
+        title: "Setup Your wallet",
+        description: "Set up your wallet of choice. Connect it to the NFT market by clicking the wallet icon in the top right corner."
+    },
+    {
+        id: 2,
+        url: works2,
+        title: "Create Collection",
+        description: "Upload your work and setup your collection. Add a description, social links and floor price."
+    },
+    {
+        id: 3,
+        url: works3,
+        title: "Start Earning",
+        description: "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
+    }
+]
 
-export { trendingArr, creators, arts, galaxys }
+export { trendingArr, creators, arts, galaxys, works }

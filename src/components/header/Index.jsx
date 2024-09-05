@@ -6,8 +6,8 @@ import logo from '../../images/nft-logo.svg'
 
 const Index = () => {
     return (
-        <header className='w-full bg-[#3c2d4e69] text-white py-[20px] flex items-center fixed z-10 top-0 left-0 backdrop-blur-[20px]'>
-            <div className="container  m-auto px-[30px] box-content" >
+        <header className='w-full bg-[rgba(60,45,78,0.41)] text-white py-[20px] flex items-center fixed z-10 top-0 left-0 backdrop-blur-[20px]'>
+            <div className="container  px-[30px]  m-auto px-[30px] box-content" >
                 <nav className=' flex items-center justify-between gap-4  '>
                     <span>
                         <NavLink to="/"><img src={logo} alt="" /></NavLink>

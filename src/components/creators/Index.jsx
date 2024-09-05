@@ -5,7 +5,7 @@ import rankings from '../../images/rankings.svg'
 const Index = () => {
     return (
         <section id='creators'>
-            <div className="container min-h-[100px] m-auto ">
+            <div className="container min-h-[100px] m-auto   px-[30px]">
                 <div className='flex justify-between'>
                     <div>
                         <h2 className='text-[28px] mb-[10px] leading-[39.2px] text-white font-[600] xl:text-[38px] leading-[45.6px]'>Top creators</h2>
