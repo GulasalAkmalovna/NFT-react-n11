@@ -7,5 +7,6 @@ import Browse from './browse/Index.jsx'
 import Info from './info/Index.jsx'
 import Mashroom from './mashroom/Index.jsx'
 import Works from './works/Index.jsx'
+import Join from './join/Index.jsx'
 
-export { Header, Footer, Discover, Creators, Trending, Browse, Info, Mashroom, Works }
+export { Header, Footer, Discover, Creators, Trending, Browse, Info, Mashroom, Works, Join }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Creators, Trending, Discover, Browse, Info, Mashroom, Works } from '@components'
+import { Creators, Trending, Discover, Browse, Info, Mashroom, Works, Join } from '@components'
 
 const Index = () => {
     return (
@@ -11,6 +11,7 @@ const Index = () => {
             <Info />
             <Mashroom />
             <Works />
+            <Join />
         </section>
     )
 }
