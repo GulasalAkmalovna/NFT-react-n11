@@ -11,10 +11,13 @@ const Index = () => {
                         <h2 className='text-[28px] mb-[10px] leading-[39.2px] text-white font-[600] xl:text-[38px] leading-[45.6px]'>Top creators</h2>
                         <p className='mb-[40px] text-[16px] leading-[22.4px]  text-[#d0d0d0] xl:mb-[60px] text-[22px] leading-[30.2px]'>Checkout Top Rated Creators on the NFT Marketplace</p>
                     </div>
+
                     <div className='hidden mt-[30px] xl:flex'>
                         <button className='btn-border flex items-center gap-[12px] max-w[247px] h-[60px]'><span><img src={rankings} alt="" /></span> View Rankings</button>
                     </div>
+
                 </div>
+
                 <div className='craetor-card flex flex-col gap-[16px] items-center justify-center flex-wrap sm:grid grid-cols-2'>
                     {
                         creators.map(item => {
@@ -33,6 +36,7 @@ const Index = () => {
                         })
                     }
                 </div>
+
                 <div className=' mt-[30px] xl:hidden'>
                     <button className='btn-border flex items-center gap-[12px] min-w-[250px] min-h-[60px]'><span><img src={rankings} alt="" /></span> View Rankings</button>
                 </div>

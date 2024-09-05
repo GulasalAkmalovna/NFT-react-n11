@@ -6,10 +6,11 @@ const Index = () => {
         <section id='trending' className='w-full py-[80px]  mt-[80px] text-white'>
             <div className="container  min-h-[90px] m-auto m-b-[60px]">
                 <div className='flex flex-col gap-[10px]'>
-                    <h2 className='text-[28px] text-center font-semibold leading-[39.2px] xl:text-[38px]  leading-[45.6px]'>Trending Collection</h2>
-                    <p className='text-[16px] text-center leadng-[22.4px] font-[400] xl:text-[22px] leading-[35.2px]'>Checkout our weekly updated trending collection.</p>
+                    <h2 className='text-[28px]  font-semibold leading-[39.2px] xl:text-[38px]  leading-[45.6px]'>Trending Collection</h2>
+                    <p className='text-[16px]  leadng-[22.4px] font-[400] xl:text-[22px] leading-[35.2px]'>Checkout our weekly updated trending collection.</p>
                 </div>
             </div>
+
             <div className="container m-auto">
                 <div className='flex  items-center justify-center gap-x-[60px] gap-y-[50px] flex-wrap mt-[60px] xl:justify-between '>
                     {

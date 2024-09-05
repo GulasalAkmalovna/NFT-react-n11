@@ -22,6 +22,20 @@ import creator10 from '../images/creator10.png'
 import creator11 from '../images/creator11.png'
 import creator12 from '../images/creator12.png'
 
+import art1 from '../images/art1.png'
+import art2 from '../images/art2.png'
+import art3 from '../images/art3.png'
+import art4 from '../images/art4.png'
+import art5 from '../images/art5.png'
+import art6 from '../images/art6.png'
+import art7 from '../images/art7.png'
+import art8 from '../images/art8.png'
+
+import info1 from '../images/info1.png'
+import info2 from '../images/info2.png'
+import info3 from '../images/info3.png'
+
+
 const trendingArr = [
     {
         id: 1,
@@ -132,5 +146,78 @@ const creators = [
     }
 ]
 
+const arts = [
+    {
+        id: 1,
+        url: art1,
+        title: "Art"
+    },
+    {
+        id: 2,
+        url: art2,
+        title: "Collectibles"
+    },
+    {
+        id: 3,
+        url: art3,
+        title: "Music"
+    },
+    {
+        id: 4,
+        url: art4,
+        title: "Video"
+    },
+    {
+        id: 5,
+        url: art5,
+        title: "Video"
+    },
+    {
+        id: 6,
+        url: art6,
+        title: "Utility"
+    },
+    {
+        id: 7,
+        url: art7,
+        title: "Sport"
+    },
+    {
+        id: 8,
+        url: art8,
+        title: "Virtual Worlds"
+    }
+]
 
-export { trendingArr, creators }
+const galaxys = [
+    {
+        id: 1,
+        url: info3,
+        title: "Distant Galaxy",
+        avatar: avatar1,
+        name: "MoonDancer",
+        price: "1.63 ETH",
+        highest: "0.33 wETH"
+    },
+    {
+        id: 2,
+        url: info2,
+        title: "Life on Edena",
+        avatar: avatar1,
+        name: "NebulaKid",
+        price: "1.63 ETH",
+        highest: "0.33 wETH"
+    },
+    {
+        id: 3,
+        url: info1,
+        title: " AstroFiction",
+        avatar: avatar1,
+        name: "Spaceone",
+        price: "1.63 ETH",
+        highest: "0.33 wETH"
+    }
+]
+
+
+export { trendingArr, creators, arts, galaxys }
