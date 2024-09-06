@@ -33,7 +33,7 @@ const Index = () => {
                         <h3 className="footer-title">Join our weekly digest</h3>
                         <p className="footer-text">Get exclusive promotions & updates straight to your inbox.</p>
                         <form className='footer-form' >
-                            <input type="email" placeholder='Enter your email here/' />
+                            <input type="email" placeholder='Enter your email here' />
                             <button className="footer-btn" type="submit">
                                 <span>Subscribe</span></button>
                         </form>
